@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "693133449841",
+    "project_id": "pages-app-36488",
+    "storage_bucket": "pages-app-36488.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693133449841:android:588b40e8951ca1ae44d9d0",
+        "android_client_info": {
+          "package_name": "com.example.pagesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxjC5kRXdQgshNZ2ghTBNYwqxO8uZ7Gew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

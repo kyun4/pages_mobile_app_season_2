@@ -1,0 +1,147 @@
+name: pagesapp
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  flutter_launcher_icons: ^0.13.0
+  flutter_svg: ^2.0.10+1
+  pretty_qr_code: ^3.3.0
+  provider:
+  uuid: ^4.5.0
+  intl: ^0.19.0
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  cloud_firestore: ^5.4.1
+  firebase_core: ^3.4.1
+  firebase_auth: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true,
+  image_path: 'assets/icon/pagesapplogo'
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+      - assets/svg/user-alt-1-svgrepo-com.svg
+      - assets/svg/lock-alt-svgrepo-com.svg
+      - assets/svg/pages-svgrepo-com-01.svg
+      - assets/svg/pages-svgrepo-com-02.svg
+      - assets/svg/pages-svgrepo-com-03.svg
+      - assets/svg/pages-svgrepo-com-04.svg
+      - assets/svg/pages-svgrepo-com-05.svg
+      - assets/svg/pages-svgrepo-com-06.svg
+      - assets/svg/pages-svgrepo-com-main-01.svg
+      - assets/svg/pages-svgrepo-com.svg
+      - assets/svg/arrow-left-svgrepo-com.svg
+      - assets/svg/heart-pulse-svgrepo-com.svg
+      - assets/svg/eye-closed-svgrepo-com.svg
+      - assets/svg/eye-slash-svgrepo-com.svg
+      - assets/svg/eye-svgrepo-com.svg
+      - assets/svg/mobile-svgrepo-com-main-01.svg
+      - assets/svg/email-contact-ui-web-svgrepo-com.svg
+      - assets/svg/search-svgrepo-com-main-01.svg
+      - assets/svg/search-svgrepo-com.svg
+      - assets/svg/hamburger-4-svgrepo-com.svg
+      - assets/svg/hamburger-5-svgrepo-com.svg
+      - assets/svg/hamburger-6-svgrepo-com.svg
+      - assets/svg/hamburger-svgrepo-com.svg
+      - assets/svg/plus-circle-1441-svgrepo-com.svg
+      - assets/svg/filter-svgrepo-com.svg
+      - assets/svg/messaging-lines-svgrepo-com.svg
+      - assets/svg/chat-dots-svgrepo-com.svg
+      - assets/svg/mobile-alt-1-svgrepo-com.svg
+      - assets/svg/heart-pulse-svgrepo-com.svg
+      - assets/svg/celebration-day-fireworks-svgrepo-com.svg
+      - assets/svg/sad-but-relieved-face-svgrepo-com.svg
+      - assets/svg/light-bulb-svgrepo-com.svg
+      - assets/svg/red-heart-svgrepo-com.svg
+      - assets/svg/happy-emoji-svgrepo-com.svg
+      - assets/svg/dots-vertical-svgrepo-com.svg
+      - assets/svg/dots-3-vertical-svgrepo-com.svg  
+      - assets/svg/dots-svgrepo-com.svg
+      - assets/svg/comments-3-svgrepo-com.svg
+      - assets/svg/comments-svgrepo-com.svg
+      - assets/images/pageslogo-orange1.png
+      - assets/images/catnip1.png
+      - assets/images/patricksample1.jpg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
