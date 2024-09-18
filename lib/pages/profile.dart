@@ -29,19 +29,12 @@ class _ProfileState extends State<Profile> {
     qrImage = QrImage(qrCode);
   }
 
-  Future<void> signOut() async {
-    final _authService = Provider.of<AuthService>(context, listen: false);
+  void signOut() {
+    FirebaseAuth.instance.signOut();
 
-    try {
-      await _authService.signOut();
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) {
-        return Login();
-      }));
-    } catch (e) {
-      ScaffoldMessenger.of(context)
-          .showSnackBar(SnackBar(content: Text(e.toString())));
-    }
-    _authService.signOut();
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) {
+      return AuthGate();
+    }));
   } // signOut()
 
   void _showDialog() {

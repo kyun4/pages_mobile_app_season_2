@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:2:5-33:19
+INJECTED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:3:5-35:19
 INJECTED from C:\Users\efren\Desktop\pages_app\android\app\src\debug\AndroidManifest.xml
 MERGED from [:cloud_firestore] C:\Users\efren\Desktop\pages_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] C:\Users\efren\Desktop\pages_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
@@ -53,8 +53,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ef
 	android:name
 		INJECTED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:1:1-45:12
-MERGED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:1:1-45:12
+ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
 INJECTED from C:\Users\efren\Desktop\pages_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\efren\Desktop\pages_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\efren\Desktop\pages_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -119,17 +119,17 @@ MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\efren\.gradle\caches\transfor
 	xmlns:android
 		ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:1:11-69
 queries
-ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:39:5-44:15
+ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:41:5-46:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:40:9-43:18
+ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:42:9-45:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:41:13-72
+ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:43:13-72
 	android:name
-		ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:41:21-70
+		ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:43:21-70
 data
-ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:42:13-50
+ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:44:13-50
 	android:mimeType
-		ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:42:19-48
+		ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\main\AndroidManifest.xml:44:19-48
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\efren\Desktop\pages_app\android\app\src\debug\AndroidManifest.xml:6:5-66
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\efren\.gradle\caches\transforms-3\2ebd5dcfad109f058c8f3ec8df34d5f7\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:25:5-67

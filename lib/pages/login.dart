@@ -10,7 +10,8 @@ import 'package:pagesapp/services/authService.dart';
 import 'package:provider/provider.dart';
 
 class Login extends StatefulWidget {
-  const Login({super.key});
+  final void Function()? onTap;
+  const Login({super.key, required this.onTap});
 
   @override
   State<Login> createState() => _LoginState();
@@ -80,12 +81,7 @@ class _LoginState extends State<Login> {
           Row(mainAxisAlignment: MainAxisAlignment.center, children: [
             Text('Not yet registered? '),
             GestureDetector(
-                onTap: () => {
-                      Navigator.pushReplacement(context,
-                          MaterialPageRoute(builder: (context) {
-                        return const SignUp();
-                      }))
-                    },
+                onTap: widget.onTap,
                 child: Text('Signup',
                     style: TextStyle(fontWeight: FontWeight.bold))),
             Text(' here')

@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:pagesapp/pages/login.dart';
 import 'package:pagesapp/pages/mainstream.dart';
+import 'package:pagesapp/services/loginOrRegister.dart';
 
 class AuthGate extends StatefulWidget {
   const AuthGate({super.key});
@@ -12,7 +13,6 @@ class AuthGate extends StatefulWidget {
 
 class _AuthGateState extends State<AuthGate> {
   @override
-  @override
   Widget build(BuildContext context) {
     return StreamBuilder(
         stream: FirebaseAuth.instance.authStateChanges(),
@@ -20,7 +20,7 @@ class _AuthGateState extends State<AuthGate> {
           if (snapshot.hasData) {
             return const MainStream();
           } else {
-            return const Login();
+            return const LoginOrRegister();
           }
         });
   }
