@@ -30,10 +30,49 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="C:\Users\efren\Desktop\pages_app\android@@:firebase_storage::release"
+      jars="C:\Users\efren\Desktop\pages_app\build\firebase_storage\.transforms\c6099a463c534c03db0beea4154795aa\transformed\out\jars\classes.jar;C:\Users\efren\Desktop\pages_app\build\firebase_storage\.transforms\c6099a463c534c03db0beea4154795aa\transformed\out\jars\libs\R.jar"
+      resolved="io.flutter.plugins.firebase.storage:firebase_storage:unspecified"
+      folder="C:\Users\efren\Desktop\pages_app\build\firebase_storage\.transforms\c6099a463c534c03db0beea4154795aa\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="C:\Users\efren\Desktop\pages_app\android@@:firebase_core::release"
       jars="C:\Users\efren\Desktop\pages_app\build\firebase_core\.transforms\6e24dd589c52cdbc02be0cf50b22d8e1\transformed\out\jars\classes.jar;C:\Users\efren\Desktop\pages_app\build\firebase_core\.transforms\6e24dd589c52cdbc02be0cf50b22d8e1\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.firebase.core:firebase_core:unspecified"
       folder="C:\Users\efren\Desktop\pages_app\build\firebase_core\.transforms\6e24dd589c52cdbc02be0cf50b22d8e1\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="C:\Users\efren\Desktop\pages_app\android@@:flutter_plugin_android_lifecycle::release"
+      jars="C:\Users\efren\Desktop\pages_app\build\flutter_plugin_android_lifecycle\.transforms\559805ac6c1df0fd3b3b468f4e9a5811\transformed\out\jars\classes.jar;C:\Users\efren\Desktop\pages_app\build\flutter_plugin_android_lifecycle\.transforms\559805ac6c1df0fd3b3b468f4e9a5811\transformed\out\jars\libs\R.jar"
+      resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"
+      folder="C:\Users\efren\Desktop\pages_app\build\flutter_plugin_android_lifecycle\.transforms\559805ac6c1df0fd3b3b468f4e9a5811\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="C:\Users\efren\Desktop\pages_app\android@@:image_picker_android::release"
+      jars="C:\Users\efren\Desktop\pages_app\build\image_picker_android\.transforms\1cd8c21233b86d2a7f7712e1b6cef213\transformed\out\jars\classes.jar;C:\Users\efren\Desktop\pages_app\build\image_picker_android\.transforms\1cd8c21233b86d2a7f7712e1b6cef213\transformed\out\jars\libs\R.jar"
+      resolved="io.flutter.plugins.imagepicker:image_picker_android:unspecified"
+      folder="C:\Users\efren\Desktop\pages_app\build\image_picker_android\.transforms\1cd8c21233b86d2a7f7712e1b6cef213\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -60,10 +99,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.activity:activity:1.8.1@aar"
-      jars="C:\Users\efren\.gradle\caches\transforms-3\62ac00d169f29908206165cd8c63b11e\transformed\jetified-activity-1.8.1\jars\classes.jar"
-      resolved="androidx.activity:activity:1.8.1"
-      folder="C:\Users\efren\.gradle\caches\transforms-3\62ac00d169f29908206165cd8c63b11e\transformed\jetified-activity-1.8.1"
+      name="androidx.activity:activity:1.9.1@aar"
+      jars="C:\Users\efren\.gradle\caches\transforms-3\f73cf895ec228a28a47062e2e4240566\transformed\jetified-activity-1.9.1\jars\classes.jar"
+      resolved="androidx.activity:activity:1.9.1"
+      folder="C:\Users\efren\.gradle\caches\transforms-3\f73cf895ec228a28a47062e2e4240566\transformed\jetified-activity-1.9.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -334,9 +373,9 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.annotation:annotation-jvm:1.8.0@jar"
-      jars="C:\Users\efren\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation-jvm\1.8.0\b8a16fe526014b7941c1debaccaf9c5153692dbb\annotation-jvm-1.8.0.jar"
-      resolved="androidx.annotation:annotation-jvm:1.8.0"/>
+      name="androidx.annotation:annotation-jvm:1.8.2@jar"
+      jars="C:\Users\efren\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation-jvm\1.8.2\b8a16fe526014b7941c1debaccaf9c5153692dbb\annotation-jvm-1.8.2.jar"
+      resolved="androidx.annotation:annotation-jvm:1.8.2"/>
   <library
       name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar"
       jars="C:\Users\efren\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.8.22\4dabb8248310d833bb6a8b516024a91fd3d275c\kotlin-stdlib-jdk7-1.8.22.jar"
@@ -410,6 +449,32 @@
       jars="C:\Users\efren\.gradle\caches\transforms-3\96eb5f6f463763375f6ea311c5601c94\transformed\jetified-firebase-firestore-25.0.0\jars\classes.jar"
       resolved="com.google.firebase:firebase-firestore:25.0.0"
       folder="C:\Users\efren\.gradle\caches\transforms-3\96eb5f6f463763375f6ea311c5601c94\transformed\jetified-firebase-firestore-25.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-storage:21.0.0@aar"
+      jars="C:\Users\efren\.gradle\caches\transforms-3\7161030db0bfae3d558e0dcdb45319ac\transformed\jetified-firebase-storage-21.0.0\jars\classes.jar"
+      resolved="com.google.firebase:firebase-storage:21.0.0"
+      folder="C:\Users\efren\.gradle\caches\transforms-3\7161030db0bfae3d558e0dcdb45319ac\transformed\jetified-firebase-storage-21.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-appcheck:18.0.0@aar"
+      jars="C:\Users\efren\.gradle\caches\transforms-3\e50c7321e41bf38c50791a608848b9d0\transformed\jetified-firebase-appcheck-18.0.0\jars\classes.jar"
+      resolved="com.google.firebase:firebase-appcheck:18.0.0"
+      folder="C:\Users\efren\.gradle\caches\transforms-3\e50c7321e41bf38c50791a608848b9d0\transformed\jetified-firebase-appcheck-18.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -549,23 +614,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="com.google.firebase:firebase-appcheck-interop:17.0.0@aar"
-      jars="C:\Users\efren\.gradle\caches\transforms-3\a2f9d9df5ca77173de64568fe501129f\transformed\jetified-firebase-appcheck-interop-17.0.0\jars\classes.jar"
-      resolved="com.google.firebase:firebase-appcheck-interop:17.0.0"
-      folder="C:\Users\efren\.gradle\caches\transforms-3\a2f9d9df5ca77173de64568fe501129f\transformed\jetified-firebase-appcheck-interop-17.0.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.firebase:firebase-database-collection:18.0.1@aar"
-      jars="C:\Users\efren\.gradle\caches\transforms-3\6832ff95e6a1b292c64fd1aa0676d30a\transformed\jetified-firebase-database-collection-18.0.1\jars\classes.jar"
-      resolved="com.google.firebase:firebase-database-collection:18.0.1"
-      folder="C:\Users\efren\.gradle\caches\transforms-3\6832ff95e6a1b292c64fd1aa0676d30a\transformed\jetified-firebase-database-collection-18.0.1"
+      name="com.google.firebase:firebase-appcheck-interop:17.1.0@aar"
+      jars="C:\Users\efren\.gradle\caches\transforms-3\4a61a3c770f7f1572dc2086a53483d1e\transformed\jetified-firebase-appcheck-interop-17.1.0\jars\classes.jar"
+      resolved="com.google.firebase:firebase-appcheck-interop:17.1.0"
+      folder="C:\Users\efren\.gradle\caches\transforms-3\4a61a3c770f7f1572dc2086a53483d1e\transformed\jetified-firebase-appcheck-interop-17.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -588,6 +640,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3@jar"
+      jars="C:\Users\efren\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-play-services\1.7.3\7087d47913cfb0062c9909dacbfc78fe44c5ecff\kotlinx-coroutines-play-services-1.7.3.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3"/>
+  <library
+      name="com.google.firebase:firebase-database-collection:18.0.1@aar"
+      jars="C:\Users\efren\.gradle\caches\transforms-3\6832ff95e6a1b292c64fd1aa0676d30a\transformed\jetified-firebase-database-collection-18.0.1\jars\classes.jar"
+      resolved="com.google.firebase:firebase-database-collection:18.0.1"
+      folder="C:\Users\efren\.gradle\caches\transforms-3\6832ff95e6a1b292c64fd1aa0676d30a\transformed\jetified-firebase-database-collection-18.0.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="com.google.android.gms:play-services-auth-base:18.0.4@aar"
       jars="C:\Users\efren\.gradle\caches\transforms-3\41576f2281d08c731bc7e0687b841548\transformed\jetified-play-services-auth-base-18.0.4\jars\classes.jar"
       resolved="com.google.android.gms:play-services-auth-base:18.0.4"
@@ -601,10 +670,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="com.google.android.gms:play-services-base:18.0.1@aar"
-      jars="C:\Users\efren\.gradle\caches\transforms-3\23bc4077dab0cc0039a2fc3ae26adf7d\transformed\jetified-play-services-base-18.0.1\jars\classes.jar"
-      resolved="com.google.android.gms:play-services-base:18.0.1"
-      folder="C:\Users\efren\.gradle\caches\transforms-3\23bc4077dab0cc0039a2fc3ae26adf7d\transformed\jetified-play-services-base-18.0.1"
+      name="com.google.android.gms:play-services-base:18.1.0@aar"
+      jars="C:\Users\efren\.gradle\caches\transforms-3\0f6eed4ffdae34f0ec9794e1a0231c9a\transformed\jetified-play-services-base-18.1.0\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-base:18.1.0"
+      folder="C:\Users\efren\.gradle\caches\transforms-3\0f6eed4ffdae34f0ec9794e1a0231c9a\transformed\jetified-play-services-base-18.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -613,10 +682,6 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
-  <library
-      name="org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3@jar"
-      jars="C:\Users\efren\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-play-services\1.7.3\7087d47913cfb0062c9909dacbfc78fe44c5ecff\kotlinx-coroutines-play-services-1.7.3.jar"
-      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3"/>
   <library
       name="com.google.android.gms:play-services-tasks:18.1.0@aar"
       jars="C:\Users\efren\.gradle\caches\transforms-3\730a834efae1cfb0c34f91c365ba9742\transformed\jetified-play-services-tasks-18.1.0\jars\classes.jar"
@@ -657,10 +722,36 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.exifinterface:exifinterface:1.3.7@aar"
+      jars="C:\Users\efren\.gradle\caches\transforms-3\dc158d739d0474ced991589092bc17d5\transformed\exifinterface-1.3.7\jars\classes.jar"
+      resolved="androidx.exifinterface:exifinterface:1.3.7"
+      folder="C:\Users\efren\.gradle\caches\transforms-3\dc158d739d0474ced991589092bc17d5\transformed\exifinterface-1.3.7"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.profileinstaller:profileinstaller:1.3.1@aar"
       jars="C:\Users\efren\.gradle\caches\transforms-3\90a73ae9e6e8f559121f9ee864303eeb\transformed\jetified-profileinstaller-1.3.1\jars\classes.jar"
       resolved="androidx.profileinstaller:profileinstaller:1.3.1"
       folder="C:\Users\efren\.gradle\caches\transforms-3\90a73ae9e6e8f559121f9ee864303eeb\transformed\jetified-profileinstaller-1.3.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.interpolator:interpolator:1.0.0@aar"
+      jars="C:\Users\efren\.gradle\caches\transforms-3\872a0ac3e0504ce4b31f8fa97e182144\transformed\interpolator-1.0.0\jars\classes.jar"
+      resolved="androidx.interpolator:interpolator:1.0.0"
+      folder="C:\Users\efren\.gradle\caches\transforms-3\872a0ac3e0504ce4b31f8fa97e182144\transformed\interpolator-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -699,19 +790,6 @@
       name="androidx.concurrent:concurrent-futures:1.1.0@jar"
       jars="C:\Users\efren\.gradle\caches\modules-2\files-2.1\androidx.concurrent\concurrent-futures\1.1.0\50b7fb98350d5f42a4e49704b03278542293ba48\concurrent-futures-1.1.0.jar"
       resolved="androidx.concurrent:concurrent-futures:1.1.0"/>
-  <library
-      name="androidx.interpolator:interpolator:1.0.0@aar"
-      jars="C:\Users\efren\.gradle\caches\transforms-3\872a0ac3e0504ce4b31f8fa97e182144\transformed\interpolator-1.0.0\jars\classes.jar"
-      resolved="androidx.interpolator:interpolator:1.0.0"
-      folder="C:\Users\efren\.gradle\caches\transforms-3\872a0ac3e0504ce4b31f8fa97e182144\transformed\interpolator-1.0.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
   <library
       name="androidx.window.extensions.core:core:1.0.0@aar"
       jars="C:\Users\efren\.gradle\caches\transforms-3\411aa761d6d68814c57f6496aab48ca0\transformed\jetified-core-1.0.0\jars\classes.jar"

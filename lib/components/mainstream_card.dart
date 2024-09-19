@@ -5,7 +5,8 @@ import 'package:pagesapp/components/emoji.dart';
 import 'package:pagesapp/components/mainstream_user_profile.dart';
 
 class MainstreamCard extends StatefulWidget {
-  const MainstreamCard({super.key});
+  final String mainstreamPostContent;
+  const MainstreamCard({super.key, required this.mainstreamPostContent});
 
   @override
   State<MainstreamCard> createState() => _MainstreamCardState();
@@ -41,7 +42,7 @@ class _MainstreamCardState extends State<MainstreamCard> {
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                   Container(
                       margin: const EdgeInsets.only(left: 10),
-                      child: Text('What a great cat day!')),
+                      child: Text(widget.mainstreamPostContent)),
                   ClipRRect(
                     child: Container(
                         height: MediaQuery.of(context).size.height - 380,

@@ -55,7 +55,17 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\efren\\.gradle\\caches\\transforms-3\\23bc4077dab0cc0039a2fc3ae26adf7d\\transformed\\jetified-play-services-base-18.0.1\\res\\values-ru\\values.xml",
+                    "source": "C:\\Users\\efren\\.gradle\\caches\\transforms-3\\9bfd83b5bb61fe28df54e854a42d24c6\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-ru\\values-ru.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,165",
+                        "endColumns": "109,118",
+                        "endOffsets": "160,279"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\efren\\.gradle\\caches\\transforms-3\\0f6eed4ffdae34f0ec9794e1a0231c9a\\transformed\\jetified-play-services-base-18.1.0\\res\\values-ru\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -69,16 +79,6 @@
                         "startOffsets": "1011,1118,1284,1410,1520,1662,1791,1906,2167,2348,2455,2618,2744,2911,3069,3138,3198",
                         "endColumns": "106,165,125,109,141,128,114,103,180,106,162,125,166,157,68,59,85",
                         "endOffsets": "1113,1279,1405,1515,1657,1786,1901,2005,2343,2450,2613,2739,2906,3064,3133,3193,3279"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\efren\\.gradle\\caches\\transforms-3\\9bfd83b5bb61fe28df54e854a42d24c6\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-ru\\values-ru.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,165",
-                        "endColumns": "109,118",
-                        "endOffsets": "160,279"
                     }
                 }
             ]

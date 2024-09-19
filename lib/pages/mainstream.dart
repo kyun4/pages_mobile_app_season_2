@@ -41,12 +41,36 @@ Widget _categoryBuilderList() {
       });
 }
 
+Route _page(route) {
+  return PageRouteBuilder(
+    pageBuilder: (context, animation, secondaryAnimation) => route,
+    transitionsBuilder: (context, animation, secondaryAnimation, child) {
+      const begin = Offset(-1.0, 0.0);
+      const end = Offset.zero;
+      const curve = Curves.ease;
+
+      var tween = Tween(begin: begin, end: end).chain(CurveTween(curve: curve));
+
+      return SlideTransition(
+        position: animation.drive(tween),
+        child: child,
+      );
+    },
+  );
+}
+
 Widget categoryBuilderItem(DocumentSnapshot document) {
   Map<String, dynamic> data = document.data()! as Map<String, dynamic>;
 
   return PillCategory(
       categoryName: data['category_name'],
       isSelected: data['category_name'] == "All" ? true : false);
+}
+
+Widget _mainstreamContentBuilder(DocumentSnapshot document) {
+  Map<String, dynamic> data = document.data()! as Map<String, dynamic>;
+
+  return MainstreamCard(mainstreamPostContent: data['caption_content']);
 }
 
 class _MainStreamState extends State<MainStream> {
@@ -104,10 +128,7 @@ class _MainStreamState extends State<MainStream> {
                       ),
                       GestureDetector(
                         onTap: () => {
-                          Navigator.pushReplacement(context,
-                              MaterialPageRoute(builder: (context) {
-                            return const AccountMenu();
-                          }))
+                          Navigator.of(context).push(_page(const AccountMenu()))
                         },
                         child: Container(
                             alignment: Alignment.centerRight,
@@ -159,13 +180,24 @@ class _MainStreamState extends State<MainStream> {
                 child: _categoryBuilderList()),
           ),
           Expanded(
-            child: ListView.builder(
-                scrollDirection: Axis.vertical,
-                itemCount: 10,
-                itemBuilder: (context, index) {
-                  return const MainstreamCard();
-                }),
-          )
+              child: StreamBuilder(
+                  stream: FirebaseFirestore.instance
+                      .collection('mainstream_content')
+                      .snapshots(),
+                  builder: (content, snapshot) {
+                    if (snapshot.connectionState == ConnectionState.waiting) {
+                      CircularProgressIndicator(
+                        backgroundColor: Color(0xffFD8A02),
+                      );
+                    }
+
+                    return ListView(
+                      scrollDirection: Axis.vertical,
+                      children: snapshot.data!.docs
+                          .map<Widget>((doc) => _mainstreamContentBuilder(doc))
+                          .toList(),
+                    );
+                  }))
         ]),
       ),
     );

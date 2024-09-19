@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:pagesapp/components/authGate.dart';
 import 'package:pagesapp/firebase_options.dart';
 import 'package:pagesapp/services/authService.dart';
+import 'package:pagesapp/services/firebaseStorage.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
@@ -12,7 +13,8 @@ void main() async {
   runApp(
     ChangeNotifierProvider(
       create: (context) => AuthService(),
-      child: const MyApp(),
+      child: ChangeNotifierProvider(
+          create: (context) => FirebaseStoragePagesApp(), child: const MyApp()),
     ),
   );
 }
